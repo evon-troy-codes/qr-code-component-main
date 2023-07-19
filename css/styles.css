@@ -1,0 +1,36 @@
+@media (max-width: 375px) {
+  /* Max width for mobile */
+}
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  /* Max width for desktop */
+}
+
+/* Typography */
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+/* Colors */
+:root {
+  --color-White: hsl(0, 0%, 100%);
+  --color-Light-gray: hsl(212, 45%, 89%);
+  --color-Grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

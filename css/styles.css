@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 @media (max-width: 375px) {
   /* Max width for mobile */
 }
@@ -6,24 +8,56 @@
   /* Max width for desktop */
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Typography */
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  background-color: var(--light-gray);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 1px);
+  margin: 1.25rem;
 }
 
-h1 {
-  font-family: "Outfit", sans-serif;
-  font-weight: 700;
+/* Container class */
+.container {
+  background-color: var(--white);
+  border-radius: 0.6rem;
+  padding: 1.25rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+  margin-bottom: 2rem;
+}
+
+.container_img {
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+.container_h1 {
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container_p {
+  color: var(--grayish-blue);
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* Colors */
 :root {
-  --color-White: hsl(0, 0%, 100%);
-  --color-Light-gray: hsl(212, 45%, 89%);
-  --color-Grayish-blue: hsl(220, 15%, 55%);
-  --color-dark-blue: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
 }
 
 /* Attribution */
